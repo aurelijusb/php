@@ -19,7 +19,7 @@ In `docker-compose.yml`:
 
 ```
   your_container:
-    image: aurelijusb/php:7.0.7-fpm
+    image: aurelijusb/php:7.0.9-fpm
     volumes:
         - ./some/as/in/nginix:/some/as/in/nginix
 ```
