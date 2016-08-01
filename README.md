@@ -10,6 +10,7 @@ Extensions
 * mbstring
 * pdo_mysql
 * gd (freetype, png, jpeg, gif)
+* calendar
 
 Usage
 -----
