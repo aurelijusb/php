@@ -1,6 +1,10 @@
 PHP container with some additional extensions
 =============================================
 
+
+[![](https://images.microbadger.com/badges/image/aurelijusb/php.svg)](https://microbadger.com/images/aurelijusb/php "Docker image info")
+
+
 Most php projects need more than bare PHP-FPM
 and installing `libpng12-dev` evey time is not the best solution.
  
