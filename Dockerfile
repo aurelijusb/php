@@ -1,4 +1,4 @@
-FROM php:7.0.7-fpm
+FROM php:7.0.12-fpm
 
 MAINTAINER Aurelijus Banelis <aurelijus@banelis.lt>
 
@@ -12,4 +12,4 @@ RUN apt-get update && \
         --with-freetype-dir=/usr/include/ \
         --with-jpeg-dir=/usr/include/ \
         --with-png-dir=/usr/include/ && \
-    docker-php-ext-install mbstring pdo_mysql gd
+    docker-php-ext-install mbstring pdo_mysql mysqli gd
